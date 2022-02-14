@@ -4,3 +4,7 @@
 > Einführung ins neue Modul  
 > Grundlagen HTTP, HTML, DNS und WWW  
 > LAB-Infrastruktur aufgebaut
+
+> ***Tag 2***  
+> DNS Grundlagen  
+> nslookup
