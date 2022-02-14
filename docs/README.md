@@ -1,4 +1,4 @@
-# Lernjournal
+# Lernjournal <!-- {docsify-ignore} -->
 
 > [M122](/m122/)
 
