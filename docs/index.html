@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Lernjournal</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="_css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="_css/docsify-print.min.css" />
+  <link rel="shortcut icon" href="_img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app">...</div>
+</body>
+<script>
+  window.$docsify = {
+    // sidebar
+    loadSidebar: true,
+    subMaxLevel: 3,
+    // coverpage
+    coverpage: true,
+    // auto2top
+    auto2top: true,
+    // plantuml
+    plantuml: {
+      skin: 'classic',
+    },
+    // alerts
+    'flexible-alerts': {
+      style: 'callout',
+      note: {
+        label: "Hinweis"
+      },
+      tip: {
+        label: "Tipp"
+      },
+      warning: {
+        label: "Achtung"
+      }
+    },
+    // pagination
+    pagination: {
+      previousText: "ZURÜCK",
+      nextText: "WEITER",
+      crossChapter: true,
+      crossChapterText: false,
+    },
+    // copy code
+    copyCode: {
+      buttonText: '<i class="far fa-clipboard"></i>',
+      errorText: '<i class="far fa-times"></i>',
+      successText: '<i class="far fa-check"></i>'
+    }
+  }
+</script>
+<script src="main.min.js"></script>
+<script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify@latest/lib/plugins/external-script.min.js"></script>
+<script src="//unpkg.com/docsify@latest/lib/plugins/ga.min.js"></script>
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script async src="//cdn.headwayapp.co/widget.js"></script>
+<script src="https://unpkg.com/docsify-copy-code@2"></script>
+<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+<script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+<script src="_js/docsify-print.min.js"></script>
+
+</html>
