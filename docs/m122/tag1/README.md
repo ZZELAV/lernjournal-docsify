@@ -3,16 +3,22 @@
 ## 1 Beuteblatt
 
 - **Was ist Ihnen jetzt präsent?**  
-Wie man die einfachsten Cmdlets braucht und wie ich Cmdlets suche.
+Wie man PowerShell mit den einfachsten Cmdlets bedient.
 
 - **Welche Schlüsselbegriffe?**  
-Cmdlets = PowerShell-Befehle
+Cmdlets  
+Pipeline  
+Interpreter
 
 - **Welche Kommandos?**  
-get-command | select-string STRING
+get-command  
+get-help  
+get-date  
+get-process  
+get-member
 
 - **Wo haben Sie Lücken?**  
-Welche Cmdlets, welche Parameter haben
+Welche Cmdlets, welche Parameter haben und welche Cmdlets man mit der Pipeline kombinieren kann.
 
 ## 2 Auftrag Cmdlets
 
