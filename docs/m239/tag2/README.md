@@ -3,7 +3,7 @@
 ## 1 Repetitionsfragen
 
 - **Weshalb gibt es DNS?**  
-Wir Menschen sind gut im Namen merken, allerdings können wir uns Zahlen nicht gut merken. Bei Computern ist es anders, diese können besser mit Zahlen arbeiten. Daher gibt es den DNS (Domain Name System). Er Namen zu IP's umwandeln und IP's zu Namen.  
+Wir Menschen sind gut im Namen merken, allerdings können wir uns Zahlen nicht gut merken. Bei Computern ist es anders, diese können besser mit Zahlen arbeiten. Daher gibt es den DNS (Domain Name System). Er kann Namen zu IP's umwandeln und IP's zu Namen.  
 Aus diesem Grund gibt es den Dienst DNS.
 
 - **Beschreiben Sie was auf dem Windows-Client passiert, wenn Sie eine Webseite aufrufen wollen**  
