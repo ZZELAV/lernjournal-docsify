@@ -55,7 +55,6 @@ SOA -> Source of Authority, verbindliche Informationen für eine DNS-Zone
   
 SRV -> Service-Einträge für andere Dienste
 
-
 ## 2 DNS im Betrieb
 
 - **Welche DNS-Server gibt es?**  
@@ -74,8 +73,9 @@ lenze.com -> Das ist die Domäne, in der alle Geräte weltweit enthalten sind (S
 ![Bild Netzwerkdiagramm Lenze](../_img/netzwerkdiagrammLenze.png)  
 Der Domain Controller in Deutschland ist der Hauptcontroller. Danach hat jeder grössere Standort nochmals einen DC. Diese synchronisieren sich untereinander immer, damit alle auf dem aktuellsten Stand sind und bei einer Unterbrechung lokal weitergearbeitet werden kann. Der DC vom lokalen Standort ist immer der primäre DNS-Server und der DNS-Server in Deutschland ist der sekundäre.
 
-- **Testen Sie mittels nslookup eine Beispielabfrage in ihrem Unternehmensnetz**  
-Intern:  
+- **Testen Sie mittels nslookup eine Beispielabfrage in ihrem Unternehmensnetz**
+  
+Intern:
 ```nslookup
 Standardserver: ZCH###.lenze.com
 Address: 172.18.###.###
@@ -104,8 +104,27 @@ lenze.com       nameserver = zat###.lenze.com
 Hier kann man einen nslookup vom internen Netzwerk sehen. Der Primäre DNS-Server von der Schweiz antwortet. Macht man einen nslookup auf lenze.com, antworten zwei DNS-Server der primäre und der sekundäre. Setzt man die Query nur auf die Namensserver und fragt wieder lenze.com ab, antworten alle DNS-Server auf der Welt (insgesamt 10). Das sind die grössten Standorte. Z.B. holt sich der Standort Brasilien die Daten vom DC in Amerika.  
 Leider darf ich den genauen Namen und die IP's nicht zeigen.
   
-Extern:  
+Extern:
 ```nslookup
+Standardserver: internetbox.home
+Address: 192.168.1.1
+  
+> lenze.com
+Server: internetbox.home
+Address: 192.168.1.1
+  
+Nicht autorisierende Antwort:
+Name: lenze.com
+Address: 195.201.191.28
+  
+> set q=NS
+> lenze.com
+Server: internetbox.home
+Address: 192.168.1.1
+  
+Nicht autorisierende Antwort:
+lenze.com       nameserver = ns.pop-hannover.de
+lenze.com       nameserver = ns2.pop-hannover.net
 ```
 
 ---
