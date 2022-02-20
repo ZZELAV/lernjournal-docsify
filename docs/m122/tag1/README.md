@@ -1,26 +1,6 @@
 # Tag 1
 
-## 1 Beuteblatt
-
-- **Was ist Ihnen jetzt präsent?**  
-Wie man PowerShell mit den einfachsten Cmdlets bedient.
-
-- **Welche Schlüsselbegriffe?**  
-Cmdlets  
-Pipeline  
-Interpreter
-
-- **Welche Kommandos?**  
-get-command  
-get-help  
-get-date  
-get-process  
-get-member
-
-- **Wo haben Sie Lücken?**  
-Welche Cmdlets, welche Parameter haben und welche Cmdlets man mit der Pipeline kombinieren kann.
-
-## 2 Auftrag Cmdlets
+## 1 Auftrag Cmdlets
 
 - **Was gibt das Cmdlet get-ChildItem aus?**  
 Gibt alle Dateien und Ordner im derzeitigem Verzeichnis aus
