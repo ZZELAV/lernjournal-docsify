@@ -1,8 +1,6 @@
 # Tag 2
 
-## 1 Beuteblatt
-
-## 2 Auftrag Ausgaben formatieren und umleiten 1
+## 1 Auftrag Ausgaben formatieren und umleiten 1
 
 - **Erstellen Sie eine Tabelle als Textdatei alle Dienste. Die Tabelle soll Name und Status anzeigen, nach Status sortiert und gruppiert (Format-Table -GroupBy) sein.**  
 get-service | sort-object status | format-table -property name, status | out-file -filepath C:\Temp\service.txt
@@ -32,3 +30,33 @@ get-command | select-object -property commandtype, name | sort-object name | out
   1..254 | foreach-object -process {get-ciminstance -class win32_pingstatus -filter ("Address='192.168.102.$_'")} | select-object -property address, responsetime
 
 - **Geben Sie die Daten aller Tage (1. Januar bis 31. Dezember) des aktuellen Jahres aus! Hinweis: ForEach-Object verwenden!**  
+
+## 2 Auftrag Ausgaben formatieren und umleiten 2
+
+- **Zeigen Sie alle Dienste an, die mit dem Buchstaben s beginnen, aber beendet (stopped) sind.**  
+get-service "s*" | where-object {$_.status -eq "stopped"}
+
+- **Sortieren Sie den Verzeichnisinhalt des Windows-Verzeichnisses (nur Dateien) absteigend nach Grösse und exportieren das Ergebnis in die CSV-Datei dateien.csv im aktuellen Verzeichnis.**  
+get-childitem -path "C:\Windows" -file | sort-object length -descending | export-csv "dateien.csv" -delimiter ";"
+
+-  **Es liegen drei Dateien vor: prozesse1.csv, prozesse2.csv und prozesse3.csv. Die Dateien wurden mit folgenden Befehlen erstellt:**
+
+```powershell
+-1- Get-Process | Export-Csv -Path .\prozesse1.csv
+-2- Get-Process | Export-Csv -Path .\prozesse2.csv –Delimiter ";„
+-3- Get-Process | Export-Csv -Path .\prozesse3.csv –UseCulture
+```
+  - **a) Welche Unterschiede weisen die Dateien -1-, -2- und -3- auf?**  
+  Die Datei -1- wird mit Kommas getrennt und die Dateien -2- und -3- sind mit Semikolons getrennt.
+
+  - **b) Was ist der Unterschied zwischen den Dateien -2- und -3-?**  
+  Bei -2- definieren wir einen sogenannten "Delimiter". Das ist das Zeichen welchen die Werte trennt. Bei -3- wird der vordefinierte "Delimeter" von diesem Cmdlets genutzt: `(get-culture).textinfo.listseparator`. In diesem Fall ist es auch ein Semikolon und daher sieht man keinen Unterschied.
+
+- **Wie viele Dateien mit der Erweiterung .exe (extension) weist Ihr Windows-Verzeichnis auf? Wie gross sind diese Dateien insgesamt und durchschnittlich?**  
+get-childitem -path "C:\Windows\*.exe" | measure-object -property length -sum -average | format-list -property count, average, sum
+
+  - **a) Rufen Sie – mit Mitteln, die in diesem Kapitel besprochen wurden – zehnmal die Anwendung notepad.exe auf.**  
+    1..10 | foreach-object -process {start-process -filepath "notepad"}
+
+  - **b) Lassen Sie sich die zehn laufenden Prozesse anzeigen und beenden sie dann.**  
+    get-process notepad | stop-process
