@@ -4,4 +4,6 @@
 
 > Valentino Panico
 
+[GitHub](https://github.com/ZZELAV/lernjournal)
+
 ![color](#081020)
