@@ -1,9 +1,7 @@
 ![Server Image](_img/logo.png ':size=200')
 
-# Lernjournal
+<h1 style="color:#fff">Lernjournal</h1>
 
 > Valentino Panico
 
-[GitHub](https://github.com/ZZELAV/lernjournal)
-
-![color](#081020)
+![color](#999)

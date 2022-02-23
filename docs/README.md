@@ -1,7 +1,9 @@
 # Lernjournal <!-- {docsify-ignore} -->
 
-> [M122](/m122/)
+Aktuelles Semester: 4
 
-> [M226B](/m226b/)
+[GitHub](https://github.com/ZZELAV/lernjournal)
 
-> [M239](/m239/)
+[Moodle](https://moodle.bztf.ch/my/)
+
+[Markdown Guide](https://www.markdownguide.org/)
