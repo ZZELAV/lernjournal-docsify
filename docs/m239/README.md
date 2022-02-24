@@ -8,3 +8,6 @@
 > ***Tag 2***  
 > DNS Grundlagen  
 > nslookup
+
+> ***Tag 3***  
+> BIND DNS-Server Installation und Konfiguration
