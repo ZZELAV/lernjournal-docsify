@@ -8,3 +8,7 @@
 
 > ***Tag 2***  
 > Beispiel BZT3 und BZT4
+
+> ***Tag 3***  
+> Zwischenstop GeomObjects  
+> Beispiel BZT5 und BZT6
