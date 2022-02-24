@@ -129,4 +129,4 @@ lenze.com       nameserver = ns2.pop-hannover.net
 
 ---
 
-Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/153154/mod_resource/content/1/site/01_script/010_Einfuehrung/), [Bild Ablauf DNS Windows](https://moodle.bztf.ch/pluginfile.php/153154/mod_resource/content/1/site/img/script/host2.GIF), [Bild DNS Abfrage](https://moodle.bztf.ch/pluginfile.php/153154/mod_resource/content/1/site/img/script/iterativ.jpg)
+Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/154386/mod_resource/content/1/site/01_script/132_RepetitionsFragen/), [Bild Ablauf DNS Windows](https://moodle.bztf.ch/pluginfile.php/153154/mod_resource/content/1/site/img/script/host2.GIF), [Bild DNS Abfrage](https://moodle.bztf.ch/pluginfile.php/153154/mod_resource/content/1/site/img/script/iterativ.jpg)

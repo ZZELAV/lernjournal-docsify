@@ -409,4 +409,4 @@ Mitarbeiter <|-- Angestellte : "extends"
 
 ---
 
-Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/151838/mod_resource/content/1/site/01_script/100_EinfuehrungModul/)
+Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/151838/mod_resource/content/1/site/01_script/140_beispiel3/)
