@@ -1,4 +1,4 @@
-# Lernjournal M226B <!-- {docsify-ignore} -->
+# Modul 226B: Objektorientiert implementieren <!-- {docsify-ignore} -->
 
 ![Java Logo alt >](_img/java_logo.png ':no-zoom :size=200')
 

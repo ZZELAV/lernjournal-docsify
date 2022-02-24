@@ -1,4 +1,4 @@
-# Lernjournal M122 <!-- {docsify-ignore} -->
+# Modul 122: Abläufe mit einer Scriptsprache automatisieren <!-- {docsify-ignore} -->
 
 ![PowerShell Logo >](_img/powershell_logo.png ':no-zoom :size=200')
 
