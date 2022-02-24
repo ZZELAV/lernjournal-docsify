@@ -4,7 +4,7 @@
 
 ## 1.1 Was haben wir gemacht?
 
-WIr haben uns die Theorie vom Drucken angeschaut. Dabei haben wir die Begriffe RIP, Treiber, GDI und PDL genauer angeschaut.
+Wir haben uns die Theorie vom Drucken angeschaut. Dabei haben wir die Begriffe RIP, Treiber, GDI und PDL genauer angeschaut.
 
 RIP -> Raster Image Processor  
 <i class="fa-solid fa-circle-info"></i> Macht ein Bitmap für den Druck
@@ -17,7 +17,7 @@ PDL -> Page Description Language
 
 ## 1.2 Wie haben wir das gemacht?
 
-Wir haben die Begriffe in OneNote aufgeschrieben und genauer erklärt und einen Ablauf von der Anwendung bis zum fertigem Druck durchgemacht.
+Wir haben die Begriffe in OneNote aufgeschrieben und genauer erklärt und einen Ablauf von der Anwendung bis zum fertigen Druck durchgemacht.
 
 ## 1.3 Was habe ich verstanden?
 
