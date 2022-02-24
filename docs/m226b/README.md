@@ -1,5 +1,7 @@
 # Lernjournal M226B <!-- {docsify-ignore} -->
 
+![Java Logo alt >](_img/java_logo.png ':no-zoom :size=200')
+
 > ***Tag 1***  
 > Einführung ins neue Modul  
 > Polymorphie und Vererbung

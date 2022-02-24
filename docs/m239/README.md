@@ -1,5 +1,7 @@
 # Lernjournal M239 <!-- {docsify-ignore} -->
 
+![Server Logo alt >](_img/server_logo.png ':no-zoom :size=200')
+
 > ***Tag 1***  
 > Einführung ins neue Modul  
 > Grundlagen HTTP, HTML, DNS und WWW  
