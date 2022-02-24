@@ -579,6 +579,62 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+UML:  
+```plantuml
+class App {
+    + main(String[] args) : void
+}
+class Person {
+    # nachname : String
+    - ehepartner : Person
+    # Person(String nachname)
+    + setNachname(String nachname) : void
+    + getNachname() : String
+    + vorstellen() : String
+    # heiraten(Person ehepartner) : void
+    # scheiden() : void
+}
+class Mitarbeiter {
+    # personalNummer : int
+    # Mitarbeiter(String nachname, int personalNummer)
+    # Mitarbeiter(String nachname)
+    + setPersonalNummer(int personalNummer) : void
+    + getPersonalNummer() : int
+    + vorstellen() : String
+}
+class Lehrer {
+    - fachbereich : String
+    + Lehrer(String nachname, String fachbereich)
+    + Lehrer(String nachname, int personalnummer)
+    + Lehrer(String nachname, int personalnummer, String fachbereich)
+    + getFachbereich() : String 
+    + setFachbereich(String fachbereich) : void
+    + vorstellen() : String
+}
+class Angestellte {
+    - schulleitung : boolean
+    + Angestellte(String nachname)
+    + Angestellte(String nachname, int personalNummer)
+    + setSchulleitung(boolean schulleitung) : void
+    + isSchulleitung() : boolean
+    + vorstellen() : String
+}
+class Lernende {
+    - nummer : int 
+    + Lernende(String nachname)
+    + setNummer(int nummer) : void
+    + getNummer() : int
+    + vorstellen() : String
+}
+
+Person <|-- Mitarbeiter : "extends"
+Person <|-- Lernende : "extends"
+Mitarbeiter <|-- Lehrer : "extends"
+Mitarbeiter <|-- Angestellte : "extends"
+
+Person "1" o-- Person
+```
+
 ---
 
 Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/151838/mod_resource/content/1/site/01_script/160_beispiel5/)
