@@ -383,9 +383,9 @@ public class App
         lehr1.heiraten(lehr1);
         ange2.heiraten(lehr1);
 
-        ange1.scheiden(ange2);
-        ange2.scheiden(ange1);
-        lehr1.scheiden(lehr1);
+        ange1.scheiden();
+        ange2.scheiden();
+        lehr1.scheiden();
     }
 }
 ```
@@ -437,18 +437,15 @@ public class Person {
         }
     }
 
-    protected void scheiden(Person ehepartner) {
-        if (this != ehepartner) {
-            if (this.ehepartner != null && ehepartner.ehepartner != null) {
-                this.ehepartner = null;
-                ehepartner.ehepartner = null;
+    protected void scheiden() {
+        if (ehepartner != null) {
+            Person temp = ehepartner;
+            ehepartner.ehepartner = null;
+            this.ehepartner = null;
 
-                System.out.println(nachname + " und " + ehepartner.getNachname() + " haben sich geschieden.");
-            } else {
-                System.out.println(nachname + " und " + ehepartner.getNachname() + " können sich nicht scheiden, weil sie nicht verheiratet sind.");
-            }
+            System.out.println(nachname + " und " + temp.getNachname() + " haben sich geschieden.");
         } else {
-            System.out.println(nachname + " kann sich nicht selber scheiden");
+            System.out.println(nachname + " ist nicht verheiratet.");
         }
     }
 
