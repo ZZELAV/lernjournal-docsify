@@ -34,7 +34,7 @@ Enthält die Konfigurationsoptionen. Was soll der Server machen, wenn er die DNS
 **/etc/bind/named.conf.local**  
 In dieser Datei werden die Zonendatein eingebunden.
 
-**/etc/bind/db.DOMAIN.CH**  
+**/etc/bind/db.DOMAIN.CH.zone**  
 Forward-Zonendatei. Hier werden alle Einträge erfasst welche von Namen zu IP aufgelöst werden sollen. Der Name der Datei kann frei wählbar sein. Es macht allerdings Sinn, wenn man sie erkennbar benennt, z.B. *.zone
 
 **/etc/bind/db.0.0.0.10**  
@@ -115,7 +115,7 @@ apache  IN	A	10.0.0.100
 # Eigene Zones
 zone "panicolocal.ch" {
 	type master;
-	file "/etc/bind/PANICOlocal.ch";
+	file "/etc/bind/PANICOlocal.ch.zone";
 };
 ```
 
