@@ -29,6 +29,7 @@ get-childitem -path "C:\Windows" -r "*.gif" -erroraction silentlycontinue | sele
 get-childitem -path "C:\Windows" -r "*.gif" -erroraction silentlycontinue | select-object name, length | where-object {$_.length -gt 1000} | measure-object | select-object -property count
 
 - **Geben Sie den Inhalt der "Harddisk" aus (Get-ChildItem "Harddisk"), auf welcher sich eine bestimmte Datei (z.B. test.txt) befindet. D.h. Sie holen die Information, um welche Harddisk es sich handelt, aus der Datei "test.txt" heraus!**  
+(get-childitem test.txt).psdrive.root
 
 - **Geben Sie die Summe der CPU-Zeit (nur Ausgabe EINER Zahl!) aus, welche alle Prozesse mit dem Namen svchost verbraucht haben!**  
 get-process "svchost" | measure-object cpu -sum | select-object -property sum
