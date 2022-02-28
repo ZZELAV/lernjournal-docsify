@@ -13,3 +13,7 @@
 > ***Tag 3***  
 > Drucken mit Linux  
 > Drucken über Netzwerk
+
+> ***Tag 4***  
+> IP-Kamera Integration  
+> Standards der IP-Kameras
