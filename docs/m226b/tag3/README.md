@@ -1,5 +1,9 @@
 # Tag 3
 
+<tagbar>
+    <p>GeomObject</p><p>BZT5</p><p>BZT6</p>
+</tagbar>
+
 ## 1 Zwischenstop GeomObjects
 
 ```java

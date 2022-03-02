@@ -1,5 +1,9 @@
 # Tag 4
 
+<tagbar>
+  <p>new-item</p><p>get-psdrive</p><p>PowerShell-Laufwerke</p>
+</tagbar>
+
 ## 1 Übungen Drives (Laufwerke)
 
 - **Geben Sie alle Umgebungsvariablen aus!**  

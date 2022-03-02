@@ -1,6 +1,8 @@
 # Tag 2
 
-> Thema: Drucken mit Linux
+<tagbar>
+    <p>Drucken mit Linux</p>
+</tagbar>
 
 ## 1.1 Was haben wir gemacht?
 

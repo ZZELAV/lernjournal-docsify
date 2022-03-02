@@ -1,6 +1,8 @@
 # Tag 1
 
-> Thema: Theorie zum Printing
+<tagbar>
+    <p>Theorie zum Printing</p>
+</tagbar>
 
 ## 1.1 Was haben wir gemacht?
 

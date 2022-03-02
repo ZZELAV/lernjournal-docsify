@@ -1,5 +1,9 @@
 # Tag 1
 
+<tagbar>
+    <p>Polymorphie</p><p>Vererbung</p><p>BZT1</p><p>BZT2</p>
+</tagbar>
+
 ## 1 Polymorphie
 
 Polymorphie ist die Vielgestaltigkeit von Klassen. Damit können mehrere Methoden mit dem gleichem Namen erstellt werden und unterschiedliche Ergebnisse geliefert werden.

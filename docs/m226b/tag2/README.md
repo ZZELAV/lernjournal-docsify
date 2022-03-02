@@ -1,5 +1,9 @@
 # Tag 2
 
+<tagbar>
+    <p>BZT3</p><p>BZT4</p>
+</tagbar>
+
 ## 1 Beispiele
 
 ## 1.1 BZT3

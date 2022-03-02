@@ -1,6 +1,8 @@
 # Tag 4
 
-> Thema: IP-Kamera Integration
+<tagbar>
+    <p>IP-Kamera Integration</p>
+</tagbar>
 
 ## 1.1 Was haben wir gemacht?
 

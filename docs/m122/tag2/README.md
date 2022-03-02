@@ -1,5 +1,9 @@
 # Tag 2
 
+<tagbar>
+  <p>Ausgaben formatieren</p><p>format-table</p><p>out-file</p>
+</tagbar>
+
 ## 1 Auftrag Ausgaben formatieren und umleiten 1
 
 - **Erstellen Sie eine Tabelle als Textdatei alle Dienste. Die Tabelle soll Name und Status anzeigen, nach Status sortiert und gruppiert (Format-Table -GroupBy) sein.**  

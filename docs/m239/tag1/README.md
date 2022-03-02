@@ -1,5 +1,9 @@
 # Tag 1
 
+<tagbar>
+    <p>Intranet<p>Extranet</p><p>Internet</p><p>DNS</p><p>WWW</p><p>HTTP</p><p>HTML</p><p>LAB-Infrastruktur</p>
+</tagbar>
+
 ## 1 Repetitionsfragen
 
 ### 1.1 Einführung ins Thema

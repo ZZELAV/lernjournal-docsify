@@ -1,5 +1,9 @@
 # Tag 3
 
+<tagbar>
+    <p>DNS</p><p>BIND9</p>
+</tagbar>
+
 ## 1 BIND9 - DNS-Server
 
 BIND (Dienst heisst named) ist ein Open-Source DNS-Server. Als Alternative gibt es den DNS-Server Dnsmasq.

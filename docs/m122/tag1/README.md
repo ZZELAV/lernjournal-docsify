@@ -1,5 +1,9 @@
 # Tag 1
 
+<tagbar>
+    <p>Cmdlets</p><p>get-childitem</p><p>get-command</p>
+</tagbar>
+
 ## 1 Auftrag Cmdlets
 
 - **Was gibt das Cmdlet get-ChildItem aus?**  

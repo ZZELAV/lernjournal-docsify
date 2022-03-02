@@ -1,6 +1,10 @@
 # Tag 3
 
-# 1 Pipeline Aufgabe
+<tagbar>
+  <p>Pipeline</p><p>foreach-object</p>
+</tagbar>
+
+## 1 Pipeline Aufgabe
 
 | Schritt | Aufgabe / Entwicklung der Programmzeile                                   |
 |---------|:--------------------------------------------------------------------------|
@@ -14,7 +18,7 @@
 
 get-childitem "*.exe" | where-object {$_.Length -gt 20000} | sort-object length -d | select-object -property name, length | convertto-html | out-file "C:\Temp\getchilditem_exe.html"
 
-# 2 Diverse Übungen | Repetition
+## 2 Diverse Übungen | Repetition
 
 - **Der Befehl zur Berechnung der 4. Potenz von 5 lautet: [math]::Pow(5,4). Formulieren Sie einen Befehl, welcher alle Zweierpotenzen von 1 bis 100 ausgibt.**  
   1..100 | foreach-object -process {[math]::pow($_,2)}
