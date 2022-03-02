@@ -19,7 +19,7 @@ new-item -path "c:\temp" -itemtype "directory"
 $env:path += ";c:\temp"
 
 - **Erstellen Sie im Verzeichnis c:\temp die Datei test.txt**  
-new-item -path "c:\temp\" -name "test.txt" -itemtype "file"
+new-item -path "c:\temp\\" -name "test.txt" -itemtype "file"
 
 - **Schreiben Sie den Text "Das ist ein Test" in die Datei c:\temp\test.txt**  
 add-content "c:\temp\test.txt" "Das ist ein Test"
@@ -45,7 +45,7 @@ new-itemproperty -path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ -nam
 get-psdrive
 
 - **Legen Sie (mit der PowerShell) ein Verzeichnis C:\Testdaten an.**  
-new-item -path "c:\" -name Testdaten -itemtype "directory"
+new-item -path "c:\\" -name Testdaten -itemtype "directory"
 
   - **a) Erstellen Sie ein neues PowerShell-Laufwerk mit Namen Testdaten und dem gerade erstellten Verzeichnis als Stammverzeichnis.**  
   new-psdrive -name Testdaten -psprovider filesystem -root "c:\Testdaten"
@@ -59,4 +59,21 @@ new-item -path "c:\" -name Testdaten -itemtype "directory"
   new-item -name "notiz.txt" -itemtype "file"
 
   - **b) eine Datei prozesse.txt, die als Inhalt den Namen und die ID der aktuellen Prozesse Ihres Rechners erhält, deren Name mit s oder w beginnt.**  
-  get-process | select -property name, id | where {$_.name -match "^s.*" -or $_.name -match "^w.*"}
+  get-process | select -property name, id | where {$\_.name -match "^s.\*" -or $_.name -match "^w.*"}
+
+- **Schreiben Sie in die Datei notiz.txt**  
+
+  - **a) aktuelle Datumsinformationen sowie**  
+  add-content -path .\notiz.txt -value (get-date)
+
+  - **b) die Liste der Dateinamen im Laufwerk Testdaten:.**  
+  add-content .\notiz.txt -value (get-childitem)
+
+- **Versehen Sie die Datei prozesse.txt mit einem Schreibschutz.**  
+set-itemproperty .\prozesse.txt -name isreadonly -value $true
+
+- **Löschen Sie den Inhalt der Datei prozesse.txt.**  
+clear-content .\prozesse.txt -force
+
+- **Löschen Sie das virtuelle PowerShell-Laufwerk Testdaten: aus der Liste der PowerShell-Laufwerke.**  
+remove-psdrive Testdaten -force
