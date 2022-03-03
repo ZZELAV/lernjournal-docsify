@@ -19,7 +19,7 @@ Früher: analog (Coax, Zweidraht, Lichtwellenleiter)
 Heute: digital (IP-Netz über Ethernet oder WLAN)
 
 H.264 / MPEG-4 AVC  
-<i class="fa-solid fa-circle-info"></i> Der am weitesten verbeitete Video-Codec für Videostreaming.  
+<i class="fa-solid fa-circle-info"></i> Der am weitesten verbreitete Video-Codec für Videostreaming.  
 Entwickelt von ITU und MPEG
 
 Codec = Rechenanleitung  
@@ -34,7 +34,7 @@ Wir haben die Standards zuerst in einer Präsentation angeschaut und danach habe
 
 ## 1.3 Was habe ich verstanden?
 
-Ich habe verstanden wie man die Kameras zurücksetzt und sie dann konfiguriert, damit darauf Zugriff hat. Oft muss für das Konfigurieren ein Programm der jeweiligen Kamera heruntergeladen werden.
+Ich habe verstanden, wie man die Kameras zurücksetzt und sie dann konfiguriert, damit darauf Zugriff hat. Oft muss für das Konfigurieren ein Programm der jeweiligen Kamera heruntergeladen werden.
 
 ## 1.4 Was habe ich noch nicht richtig verstanden?
 
