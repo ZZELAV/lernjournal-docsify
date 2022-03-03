@@ -105,6 +105,25 @@ apache  IN	A	10.0.0.100
 
 #### 1.3.3 Reverse-Zone
 
+```config
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	bind.PANICOlocal.ch. root.PANICOlocal.ch. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	bind.PANICOlocal.ch. ; NS Eintrag
+
+; PTR Einträge
+200	IN	PTR	bind.PANICOlocal.ch. ; Dieser Server
+100	IN	PTR	apache.PANICOlocal.ch. ; Apache WWW Server
+```
+
 #### 1.3.4 Local - Zonen einbinden
 
 ```config
@@ -116,10 +135,16 @@ apache  IN	A	10.0.0.100
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-# Eigene Zones
+# Forward Zone
 zone "panicolocal.ch" {
 	type master;
 	file "/etc/bind/PANICOlocal.ch.zone";
+};
+
+# Reverse Zone
+zone "0.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.0.0.10";
 };
 ```
 
