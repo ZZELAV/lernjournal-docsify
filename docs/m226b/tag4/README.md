@@ -972,6 +972,19 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+[//]: # (### 1.4 BZT10)
+
+## 2 Formativer Selbsttest
+
+![PDF Formativer Selbsttest Seite 1](../_img/form_selbsttest_2022-03-04-1.png)
+![PDF Formativer Selbsttest Seite 2](../_img/form_selbsttest_2022-03-04-2.png)
+![PDF Formativer Selbsttest Seite 3](../_img/form_selbsttest_2022-03-04-3.png)
+![PDF Formativer Selbsttest Seite 4](../_img/form_selbsttest_2022-03-04-4.png)
+
+## 3 Unklarheiten
+
+- **Wo zeigt das `ehepartner.ehepartner` hin? (BZT6)**  
+
 ---
 
 Quellen: [Skript Moodle](https://moodle.bztf.ch/pluginfile.php/151838/mod_resource/content/1/site/01_script/180_beispiel7/)
