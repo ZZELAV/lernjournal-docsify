@@ -12,3 +12,7 @@
 > ***Tag 3***  
 > Zwischenstop GeomObjects  
 > Beispiel BZT5 und BZT6
+
+> ***Tag 4***  
+> Beispiel BZT7-BZT10  
+> Formativer Selbsttest
