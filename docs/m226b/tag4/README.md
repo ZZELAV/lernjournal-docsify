@@ -1,7 +1,7 @@
 # Tag 4
 
 <tagbar>
-    <p>BZT7</p><p>BZT8</p><p>BZT9</p>
+    <p>BZT7</p><p>BZT8</p><p>BZT9</p><p>Formativer Selbsttest</p>
 </tagbar>
 
 ## 1 Beispiele
