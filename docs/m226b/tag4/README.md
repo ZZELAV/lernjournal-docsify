@@ -972,8 +972,6 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
-[//]: # (### 1.4 BZT10)
-
 ## 2 Formativer Selbsttest
 
 ![PDF Formativer Selbsttest Seite 1](../_img/form_selbsttest_2022-03-04-1.png)
