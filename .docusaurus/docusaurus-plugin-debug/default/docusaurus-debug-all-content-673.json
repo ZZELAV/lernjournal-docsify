@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/lernjournal/docs",
+          "tagsPath": "/lernjournal/docs/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -26,7 +26,7 @@
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/docs/",
+              "permalink": "/lernjournal/docs/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
               "tags": [],
               "version": "current",
@@ -45,7 +45,7 @@
               "source": "@site/docs/M122/index.md",
               "sourceDirName": "M122",
               "slug": "/M122/",
-              "permalink": "/docs/M122/",
+              "permalink": "/lernjournal/docs/M122/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M122/index.md",
               "tags": [],
               "version": "current",
@@ -55,7 +55,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "M126",
-                "permalink": "/docs/M126/"
+                "permalink": "/lernjournal/docs/M126/"
               }
             },
             {
@@ -66,7 +66,7 @@
               "source": "@site/docs/M126/index.md",
               "sourceDirName": "M126",
               "slug": "/M126/",
-              "permalink": "/docs/M126/",
+              "permalink": "/lernjournal/docs/M126/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M126/index.md",
               "tags": [],
               "version": "current",
@@ -76,7 +76,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "M226B",
-                "permalink": "/docs/M226B/"
+                "permalink": "/lernjournal/docs/M226B/"
               }
             },
             {
@@ -87,7 +87,7 @@
               "source": "@site/docs/M226B/index.md",
               "sourceDirName": "M226B",
               "slug": "/M226B/",
-              "permalink": "/docs/M226B/",
+              "permalink": "/lernjournal/docs/M226B/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M226B/index.md",
               "tags": [],
               "version": "current",
@@ -97,7 +97,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "M239",
-                "permalink": "/docs/M239/"
+                "permalink": "/lernjournal/docs/M239/"
               }
             },
             {
@@ -108,7 +108,7 @@
               "source": "@site/docs/M239/index.md",
               "sourceDirName": "M239",
               "slug": "/M239/",
-              "permalink": "/docs/M239/",
+              "permalink": "/lernjournal/docs/M239/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M239/index.md",
               "tags": [],
               "version": "current",
@@ -166,12 +166,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/lernjournal/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/lernjournal/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",

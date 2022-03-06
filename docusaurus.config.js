@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Lernjournal',
   tagline: 'Lernjournal von Valentino Panico',
-  url: 'https://zzelav.github.io/lernjournal/',
+  url: 'https://zzelav.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

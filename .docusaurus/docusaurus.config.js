@@ -6,7 +6,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "Lernjournal",
   "tagline": "Lernjournal von Valentino Panico",
-  "url": "https://zzelav.github.io/lernjournal/",
+  "url": "https://zzelav.github.io/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
