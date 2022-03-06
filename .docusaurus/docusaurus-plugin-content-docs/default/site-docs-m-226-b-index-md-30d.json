@@ -1,0 +1,21 @@
+{
+  "unversionedId": "M226B/index",
+  "id": "M226B/index",
+  "title": "M226B",
+  "description": "",
+  "source": "@site/docs/M226B/index.md",
+  "sourceDirName": "M226B",
+  "slug": "/M226B/",
+  "permalink": "/docs/M226B/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M226B/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "pagination_prev": null
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "M239",
+    "permalink": "/docs/M239/"
+  }
+}

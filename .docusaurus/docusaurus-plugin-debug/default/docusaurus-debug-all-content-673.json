@@ -1,0 +1,190 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/zzelav/Documents/git/lernjournal/sidebars.js",
+          "contentPath": "/home/zzelav/Documents/git/lernjournal/docs",
+          "contentPathLocalized": "/home/zzelav/Documents/git/lernjournal/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Doku",
+              "description": "4. Semester",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "pagination_next": null
+              },
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "unversionedId": "M122/index",
+              "id": "M122/index",
+              "title": "M122",
+              "description": "",
+              "source": "@site/docs/M122/index.md",
+              "sourceDirName": "M122",
+              "slug": "/M122/",
+              "permalink": "/docs/M122/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M122/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "pagination_prev": null
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "M126",
+                "permalink": "/docs/M126/"
+              }
+            },
+            {
+              "unversionedId": "M126/index",
+              "id": "M126/index",
+              "title": "M126",
+              "description": "",
+              "source": "@site/docs/M126/index.md",
+              "sourceDirName": "M126",
+              "slug": "/M126/",
+              "permalink": "/docs/M126/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M126/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "pagination_prev": null
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "M226B",
+                "permalink": "/docs/M226B/"
+              }
+            },
+            {
+              "unversionedId": "M226B/index",
+              "id": "M226B/index",
+              "title": "M226B",
+              "description": "",
+              "source": "@site/docs/M226B/index.md",
+              "sourceDirName": "M226B",
+              "slug": "/M226B/",
+              "permalink": "/docs/M226B/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M226B/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "pagination_prev": null
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "M239",
+                "permalink": "/docs/M239/"
+              }
+            },
+            {
+              "unversionedId": "M239/index",
+              "id": "M239/index",
+              "title": "M239",
+              "description": "",
+              "source": "@site/docs/M239/index.md",
+              "sourceDirName": "M239",
+              "slug": "/M239/",
+              "permalink": "/docs/M239/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/M239/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "pagination_prev": null
+              },
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "label": "M122",
+                "id": "M122/index"
+              },
+              {
+                "type": "doc",
+                "label": "M126",
+                "id": "M126/index"
+              },
+              {
+                "type": "doc",
+                "label": "M226B",
+                "id": "M226B/index"
+              },
+              {
+                "type": "doc",
+                "label": "M239",
+                "id": "M239/index"
+              }
+            ]
+          },
+          "mainDocId": "index",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null,
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
