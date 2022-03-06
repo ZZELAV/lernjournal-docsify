@@ -6,10 +6,10 @@ export default {
   '393be207': [() => import(/* webpackChunkName: '393be207' */ '@site/src/pages/markdown-page.md'), '@site/src/pages/markdown-page.md', require.resolveWeak('@site/src/pages/markdown-page.md')],
   '51c01b54': [() => import(/* webpackChunkName: '51c01b54' */ '@site/docs/M122/index.md'), '@site/docs/M122/index.md', require.resolveWeak('@site/docs/M122/index.md')],
   '5e9f5e1a': [() => import(/* webpackChunkName: '5e9f5e1a' */ '@generated/docusaurus.config'), '@generated/docusaurus.config', require.resolveWeak('@generated/docusaurus.config')],
+  '709ba445': [() => import(/* webpackChunkName: '709ba445' */ '~blog/default/lernjournal-blog-archive-949.json'), '~blog/default/lernjournal-blog-archive-949.json', require.resolveWeak('~blog/default/lernjournal-blog-archive-949.json')],
   '795199c4': [() => import(/* webpackChunkName: '795199c4' */ '@site/docs/M239/index.md'), '@site/docs/M239/index.md', require.resolveWeak('@site/docs/M239/index.md')],
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],
   '9912e532': [() => import(/* webpackChunkName: '9912e532' */ '@site/docs/M126/index.md'), '@site/docs/M126/index.md', require.resolveWeak('@site/docs/M126/index.md')],
   '9e4087bc': [() => import(/* webpackChunkName: '9e4087bc' */ '@theme/BlogArchivePage'), '@theme/BlogArchivePage', require.resolveWeak('@theme/BlogArchivePage')],
-  'b2f554cd': [() => import(/* webpackChunkName: 'b2f554cd' */ '~blog/default/blog-archive-80c.json'), '~blog/default/blog-archive-80c.json', require.resolveWeak('~blog/default/blog-archive-80c.json')],
   'c377a04b': [() => import(/* webpackChunkName: 'c377a04b' */ '@site/docs/index.md'), '@site/docs/index.md', require.resolveWeak('@site/docs/index.md')],
   'c4f5d8e4': [() => import(/* webpackChunkName: 'c4f5d8e4' */ '@site/src/pages/index.js'), '@site/src/pages/index.js', require.resolveWeak('@site/src/pages/index.js')],};

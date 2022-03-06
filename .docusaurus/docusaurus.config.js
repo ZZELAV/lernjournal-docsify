@@ -7,7 +7,7 @@ export default {
   "title": "Lernjournal",
   "tagline": "Lernjournal von Valentino Panico",
   "url": "https://zzelav.github.io/",
-  "baseUrl": "/",
+  "baseUrl": "/lernjournal/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

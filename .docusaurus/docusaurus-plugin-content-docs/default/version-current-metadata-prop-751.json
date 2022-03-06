@@ -11,31 +11,31 @@
       {
         "type": "link",
         "label": "Doku",
-        "href": "/docs/",
+        "href": "/lernjournal/docs/",
         "docId": "index"
       },
       {
         "type": "link",
         "label": "M122",
-        "href": "/docs/M122/",
+        "href": "/lernjournal/docs/M122/",
         "docId": "M122/index"
       },
       {
         "type": "link",
         "label": "M126",
-        "href": "/docs/M126/",
+        "href": "/lernjournal/docs/M126/",
         "docId": "M126/index"
       },
       {
         "type": "link",
         "label": "M226B",
-        "href": "/docs/M226B/",
+        "href": "/lernjournal/docs/M226B/",
         "docId": "M226B/index"
       },
       {
         "type": "link",
         "label": "M239",
-        "href": "/docs/M239/",
+        "href": "/lernjournal/docs/M239/",
         "docId": "M239/index"
       }
     ]

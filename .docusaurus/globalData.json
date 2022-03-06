@@ -1,45 +1,45 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/lernjournal/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/lernjournal/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "index",
-              "path": "/docs/",
+              "path": "/lernjournal/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "M122/index",
-              "path": "/docs/M122/",
+              "path": "/lernjournal/docs/M122/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "M126/index",
-              "path": "/docs/M126/",
+              "path": "/lernjournal/docs/M126/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "M226B/index",
-              "path": "/docs/M226B/",
+              "path": "/lernjournal/docs/M226B/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "M239/index",
-              "path": "/docs/M239/",
+              "path": "/lernjournal/docs/M239/",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/",
+                "path": "/lernjournal/docs/",
                 "label": "index"
               }
             }

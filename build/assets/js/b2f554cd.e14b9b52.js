@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklernjournal_docusaurus=self.webpackChunklernjournal_docusaurus||[]).push([[477],{10:function(u){u.exports={blogPosts:[]}}}]);

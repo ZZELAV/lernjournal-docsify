@@ -4,54 +4,54 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive','f4c'),
+    path: '/lernjournal/blog/archive',
+    component: ComponentCreator('/lernjournal/blog/archive','05a'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','be1'),
+    path: '/lernjournal/markdown-page',
+    component: ComponentCreator('/lernjournal/markdown-page','6ec'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs','de5'),
+    path: '/lernjournal/docs',
+    component: ComponentCreator('/lernjournal/docs','107'),
     routes: [
       {
-        path: '/docs/',
-        component: ComponentCreator('/docs/','a8c'),
+        path: '/lernjournal/docs/',
+        component: ComponentCreator('/lernjournal/docs/','1ed'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/M122/',
-        component: ComponentCreator('/docs/M122/','6ce'),
+        path: '/lernjournal/docs/M122/',
+        component: ComponentCreator('/lernjournal/docs/M122/','2db'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/M126/',
-        component: ComponentCreator('/docs/M126/','fec'),
+        path: '/lernjournal/docs/M126/',
+        component: ComponentCreator('/lernjournal/docs/M126/','925'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/M226B/',
-        component: ComponentCreator('/docs/M226B/','9ce'),
+        path: '/lernjournal/docs/M226B/',
+        component: ComponentCreator('/lernjournal/docs/M226B/','adc'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/M239/',
-        component: ComponentCreator('/docs/M239/','4b5'),
+        path: '/lernjournal/docs/M239/',
+        component: ComponentCreator('/lernjournal/docs/M239/','051'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/','deb'),
+    path: '/lernjournal/',
+    component: ComponentCreator('/lernjournal/','451'),
     exact: true
   },
   {
